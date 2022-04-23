@@ -33,7 +33,7 @@ train = True
 ```
 
 ### File paths
-In the first cells of each notebook you can find 2 (in the case of transfer learning 3) paths:
+In the first cells of each notebook you can find 2 paths:
 
 ```python
 data_path = path/to/data/
