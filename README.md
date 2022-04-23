@@ -44,7 +44,7 @@ The first path indicates the directory of the datasets, the second path indicate
 
 ### Using preprocessed data and trained models
 
-Because of the size of the trained models and preprocessed data, these file can be found [here](https://www.dropbox.com/sh/d10caanbn8tnggl/AACoUFDn_RhiGNucrRLTLW7qa?dl=0)
+Because of the size of the trained models and preprocessed data, these file can be found [here](https://www.dropbox.com/sh/d10caanbn8tnggl/AACoUFDn_RhiGNucrRLTLW7qa?dl=0).
 
 ## Contributors
 
