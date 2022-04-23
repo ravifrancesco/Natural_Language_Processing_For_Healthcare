@@ -48,7 +48,7 @@ data_path = path/to/data/
 model_path = path/to/saved/models/
 ```
 
-The first path indicates the directory of the datasets, the second path indicates the file from which the model will be loaded (or saved if training is enabled). For the ensemble models, the ```model_path``` variable should point to the folder which contains the model files.
+The first path indicates the directory of the datasets, the second path indicates the file from which the model will be loaded (or saved if training is enabled): ```data_path``` variable should point to the folder which contains the original dataset and the preprocessed files, ```model_path``` variable should point to the folder which contains the model files.
 
 ## Contributors
 
