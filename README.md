@@ -19,6 +19,14 @@ $ pip install transformers
 $ pip install datasets
 ```
 
+### Using preprocessed data and trained models
+
+Because of the size of the trained models and preprocessed data, these file can be found [here](https://www.dropbox.com/sh/d10caanbn8tnggl/AACoUFDn_RhiGNucrRLTLW7qa?dl=0).
+
+### Preprocessing
+
+The motebook `Task1.ipynb` requires to have the preprocessed dataset. To use this either use the preprocessed data mentioned in the above mentioned folder or run the notebook `Task1_preprocessing.ipynb`. The preprocessed files should be in the path indicated by `model_path`. For the notebook `Task2.ipynb` either set `is_preprocess_enabled=True` to let the notebook do the preprocessing or set it to `False` and use the preprocessed data mentioned in the above mentioned folder or run the notebook `Task1_preprocessing.ipynb`. The preprocessed files should be in the path indicated by `model_path`.
+
 ### Train
 In the first cells of each notebook you can find the following line:
 
@@ -41,10 +49,6 @@ model_path = path/to/saved/models/
 ```
 
 The first path indicates the directory of the datasets, the second path indicates the file from which the model will be loaded (or saved if training is enabled). For the ensemble models, the ```model_path``` variable should point to the folder which contains the model files.
-
-### Using preprocessed data and trained models
-
-Because of the size of the trained models and preprocessed data, these file can be found [here](https://www.dropbox.com/sh/d10caanbn8tnggl/AACoUFDn_RhiGNucrRLTLW7qa?dl=0).
 
 ## Contributors
 
