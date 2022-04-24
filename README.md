@@ -1,8 +1,8 @@
 # Natural Language Processing For Healthcare
 
-## Database
+## Dataset
 
-The notebooks are supposed to work on the [Pubmed_200k_RCT database](https://github.com/Franck-Dernoncourt/pubmed-rct/tree/master/PubMed_200k_RCT).
+The notebooks are supposed to work on the [Pubmed_200k_RCT dataset](https://github.com/Franck-Dernoncourt/pubmed-rct/tree/master/PubMed_200k_RCT).
 
 ## Setup
 
@@ -25,7 +25,7 @@ Because of the size of the trained models and preprocessed data, these file can 
 
 ### Preprocessing
 
-The motebook `Task1.ipynb` requires to have the preprocessed dataset. To use this either use the preprocessed data mentioned in the above mentioned folder or run the notebook `Task1_preprocessing.ipynb`. The preprocessed files should be in the path indicated by `model_path`. For the notebook `Task2.ipynb` either set `is_preprocess_enabled=True` to let the notebook do the preprocessing or set it to `False` and use the preprocessed data mentioned in the above mentioned folder or run the notebook `Task1_preprocessing.ipynb`. The preprocessed files should be in the path indicated by `model_path`.
+The motebook `Task1.ipynb` requires to have the preprocessed dataset. To use this either use the preprocessed data mentioned in the above mentioned folder or run the notebook `Task1_preprocessing.ipynb`. The preprocessed files should be in the path indicated by `data_path`. For the notebook `Task2.ipynb` either set `is_preprocess_enabled=True` to let the notebook do the preprocessing or set it to `False` and use the preprocessed data mentioned in the above mentioned folder. The preprocessed files should be in the path indicated by `data_path`.
 
 ### Train
 In the first cells of each notebook you can find the following line:
